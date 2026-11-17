@@ -37,11 +37,11 @@
         android:orientation="horizontal"
         android:layout_marginBottom="20dp">
         <Button
-            android:id="@+id/btnKiemTra"
+            android:id="@+id/btnGhiNhan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Kiem Tra"
+            android:text="GhiNhan"
             android:layout_marginEnd="8dp"/>
         <Button
             android:id="@+id/btnXoa"
@@ -64,5 +64,18 @@
         android:text=""
         android:textSize="16dp"
         android:layout_marginBottom="8dp"/>
-
+    <TextView
+        android:id = "@+id/txtTong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng đã nhận: 0"
+        android:textSize = "16sp"
+        android:layout_marginTop = "8dp"/>
+    <TextView
+        android:id="@+id/txtConLai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chỗ còn lại: 9"
+        android:textSize = "16sp"
+        android:android:layout_marginTop="4dp"/>
 </LinearLayout>
